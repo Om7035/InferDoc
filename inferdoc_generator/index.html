@@ -15,6 +15,10 @@
         <link rel="canonical" href="https://Om7035.github.io/InferDoc/inferdoc_generator/">
       
       
+        <link rel="prev" href="../inferdoc_parser/">
+      
+      
+        <link rel="next" href="../inferdoc_ai_enhancer/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +26,7 @@
     
     
       
-        <title>Module: generator.py - InferDoc Documentation</title>
+        <title>Generator - InferDoc Documentation</title>
       
     
     
@@ -108,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Module: generator.py
+              Generator
             
           </span>
         </div>
@@ -226,11 +230,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../parser.md" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../api_index/" class="md-tabs__link">
           
   
   
@@ -301,28 +307,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -335,7 +344,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             API Reference
@@ -349,7 +358,30 @@
   
   
     <li class="md-nav__item">
-      <a href="../parser.md" class="md-nav__link">
+      <a href="../api_index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inferdoc_parser/" class="md-nav__link">
         
   
   
@@ -369,10 +401,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../generator.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Generator
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -383,6 +437,95 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#module-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Module Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recent-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      📝 Recent Changes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Functions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-generate_markdownstructure-template_dir-template_name-module_name-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Function: generate_markdown(structure, template_dir, template_name, module_name, summary)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-generate_markdown_from_stringstructure-template_string-module_name-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Function: generate_markdown_from_string(structure, template_string, module_name, summary)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-save_markdowncontent-output_path" class="md-nav__link">
+    <span class="md-ellipsis">
+      Function: save_markdown(content, output_path)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-generate_index_pagemodules-template_dir-project_name" class="md-nav__link">
+    <span class="md-ellipsis">
+      Function: generate_index_page(modules, template_dir, project_name)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -395,7 +538,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ai_enhancer.md" class="md-nav__link">
+      <a href="../inferdoc_ai_enhancer/" class="md-nav__link">
         
   
   
@@ -418,7 +561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../git_analyzer.md" class="md-nav__link">
+      <a href="../inferdoc_git_analyzer/" class="md-nav__link">
         
   
   
