@@ -51,7 +51,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - API Reference:
-      - Parser: parser.md
-      - Generator: generator.md
-      - AI Enhancer: ai_enhancer.md
-      - Git Analyzer: git_analyzer.md
+      - Overview: api_index.md
+      - Parser: inferdoc_parser.md
+      - Generator: inferdoc_generator.md
+      - AI Enhancer: inferdoc_ai_enhancer.md
+      - Git Analyzer: inferdoc_git_analyzer.md
