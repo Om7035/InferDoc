@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://Om7035.github.io/InferDoc/</loc>
+         <lastmod>2025-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://Om7035.github.io/InferDoc/api_index/</loc>
+         <lastmod>2025-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://Om7035.github.io/InferDoc/inferdoc___init__/</loc>
+         <lastmod>2025-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://Om7035.github.io/InferDoc/inferdoc_ai_enhancer/</loc>
+         <lastmod>2025-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://Om7035.github.io/InferDoc/inferdoc_generator/</loc>
+         <lastmod>2025-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://Om7035.github.io/InferDoc/inferdoc_git_analyzer/</loc>
+         <lastmod>2025-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://Om7035.github.io/InferDoc/inferdoc_parser/</loc>
+         <lastmod>2025-10-23</lastmod>
+    </url>
+</urlset>
